@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Game</title>
+</head>
+<body>
+    <div>
+        <div class="header">Welcome to the Game!!</div>
+        <button class="again" onclick="start()">Play Again</button>
+        <div class="guess">Gues My Number!!</div>
+        <div class="guess">(Range is between 1 to 100)</div> 
+    </div><br><br>
+    <div class="main">
+        <input type="number" class="num" id="numid"><br>
+        <button class="check" onclick="checkguess()">Check!!</button>
+    </div>
+    <div>
+        <div id="msg">Start guessing!!</div>
+        <div >Chances : <span id="chance">100</span> </div>
+        <div >attempts : <span id="attemp">0</span> </div>
+    </div>
+<script src="./script2.js"></script>
+</body>
+</html>

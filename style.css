@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   
+    background: rgb(252,176,69);
+    background: linear-gradient(90deg, rgba(252,176,69,1) 0%, rgba(234,53,53,1) 72%, rgba(131,58,180,1) 100%);
+}
+#header{
+    text-shadow: 5px 2px 3px crimson;
+    color: #7FFFD4;
+    font-size: 50px;
+}
+h2{
+    color: #003262;
+    text-shadow: 1px 0px 1px #2072AF;
+}
+.output , .box{
+    color: #512888;
+    background: rgb(230,160,61);
+    background: linear-gradient(90deg, rgba(230,160,61,1) 0%, rgba(224,86,86,1) 72%, rgba(155,94,195,1) 100%);
+}
+h1{
+    text-shadow: 2px 0px 1px black;
+    text-align: center;
+    width: 100%;
+
+}
+button{
+    margin-left: 45vw;
+}
+.parent{
+    display: flex;
+    margin-left: 100px;
+}
+.cards{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%);
+    /* background-color: greenyellow; */
+}
+.diff tr td ,.diff tr th{
+    border: 2px groove black;
+    background-color: navajowhite;
+    padding: 10px;
+}
+.diff{
+    margin-left: 50px;
+}
+.clock{
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.header{
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+}
+.again{
+    margin-left: 50px;
+    width: 100px;
+    height: 50px;
+}
+.guess{
+    text-align: center;
+    width: 100%;
+font-size: 36px;
+}
+.main{
+    text-align: center;
+
+}
+.num{
+    width: 100px;
+}
+.check{
+    margin-left: 0px;
+}
